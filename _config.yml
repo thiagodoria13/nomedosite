@@ -34,12 +34,6 @@ theme: minima
 plugins:
   - jekyll-feed
 
-<header> 
-    <img src ="{{’/assets/images/sample-logo.jpg’|relative_url}}"\> 
-</header>
-<li> <a href ="{{ post .url | relative_url }} ">{{post.title}}</a></li>
-<link rel ="stylesheet" href ="{{ ’/assets/css/styles.css’ | relative_url}}">
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
